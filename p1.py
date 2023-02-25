@@ -1,0 +1,7 @@
+a=float(input("anuual income"))
+b=float(input("deduction1"))
+c=float(input("deduction2"))
+d=float(input("deduction3"))
+q=int(input("enter no.of weeks"))
+w=q*a*(1-((b+d+c)/100))
+print("%2F."%w)
